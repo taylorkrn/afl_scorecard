@@ -3,10 +3,10 @@ import './App.css';
 
 function Counter({count, decrease, increase}){
     return (
-        <div className="MyText">
-            <p style={{verticalAlign: "middle"}}>{count}</p>
+        <div className="MyGrid">
+            <button onClick={increase} className="MyButton" style={{gridRowStart: "1"}}>+</button>
+            <p style={{textAlign: "center", gridRowStart: "2"}}>{count}</p>
             <button onClick={decrease} className="MyButton">-</button>
-            <button onClick={increase} className="MyButton">+</button>
         </div>
     );
 }
