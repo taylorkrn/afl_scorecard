@@ -2,9 +2,13 @@ import {Component} from 'react';
 import Counter from './Counter';
 
 class TotalScore extends Component{
-    state = {
-        behinds: 0,
-        goals: 0
+    constructor(props){
+        super(props);
+
+        this.state={
+            behinds: props.Behinds,
+            goals: props.Goals
+        };
     };
 
     increaseBehinds = () => {

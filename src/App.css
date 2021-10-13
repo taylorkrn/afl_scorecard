@@ -1,21 +1,17 @@
 body {
-    background-image: url("./scg.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  background-image: url("./scg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 img {
   width: auto;
   height: 50px;
+}
+
+.MyText{
+  text-align: center;
+  vertical-align: baseline;
 }
 
 .Score-Flex{
@@ -25,14 +21,16 @@ img {
   background-color: lightgrey;
   border:  solid 5px rgba(76,76,76,0.5);
   margin:  50px;
+  max-width:  600px;
 }
 
 .Count-Flex{
   display: flex;
-  min-width:  100px;
-  justify-content:  space-between;
+  min-width:  200px;
+  justify-content:  space-around;
   background-color: white;
   align-items: center;
+  height: 60px;
 }
 
 .App-header {
@@ -46,12 +44,10 @@ img {
 }
 
 .MyButton{
-  width:5px;
-  height: auto;
+  width:20px;
+  height: 20px;
   text-align: center;
-}
-
-
-.App-link {
-  color: #61dafb;
+  color: blue;
+  background-color: white;
+  border:  solid 1px grey;
 }

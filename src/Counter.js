@@ -3,7 +3,7 @@ import './App.css';
 
 function Counter({count, decrease, increase}){
     return (
-        <div className="App">
+        <div className="MyText">
             <p style={{verticalAlign: "middle"}}>{count}</p>
             <button onClick={decrease} className="MyButton">-</button>
             <button onClick={increase} className="MyButton">+</button>
