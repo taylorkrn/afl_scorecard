@@ -6,10 +6,6 @@
 
 ## A React-App with a Scoreboard that can be updated
 
-To run:
-
-### npm start
-
 The AFL point scoring system is as follows:
 
 - For each goal, the team recieves 6 points
